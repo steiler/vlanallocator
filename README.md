@@ -1,6 +1,19 @@
 # Overview
 
 ```mermaid
+%%{
+  init: {
+    "theme": "neutral",
+    "logLevel": "info",
+    "flowchart": {
+      "htmlLabels": true,
+      "curve": "linear"
+    },
+    "sequence": {
+      "mirrorActors": true
+    }
+  }
+}%%
 
 classDiagram
     direction TB
